@@ -26,10 +26,8 @@
 
 If you need more tools or integrations for Hetzner Cloud, make sure to check out the [Awesome Hetzner Cloud repository](https://github.com/hetznercloud/awesome-hcloud#readme).
 
-## Get in touch 💬
-
-- [Support Center](https://www.hetzner.com/support-center)
-
 ## Contribute ❤️
 
 Contributions are welcome, and they are greatly appreciated! You can help us improve the documentation, report or fix bugs, propose new features! And if you are interested in [joining the team](https://www.hetzner-cloud.de/#jobs), do not hesitate to reach out to us.
+
+###### If you need help, reach us using the [Support Center](https://www.hetzner.com/support-center).
