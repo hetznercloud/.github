@@ -24,7 +24,7 @@
 - [hcloud-cloud-controller-manager](https://github.com/hetznercloud/hcloud-cloud-controller-manager) — Kubernetes cloud-controller-manager for Hetzner Cloud.
 - [csi-driver](https://github.com/hetznercloud/csi-driver) — Container Storage Interface driver for Hetzner Cloud.
 
-If you need more tools or integrations for Hetzner Cloud, make sure to check out the [Awesome Hetzner Cloud repository](https://github.com/hetznercloud/awesome-hcloud#readme).
+If you need more tools or integrations for Hetzner Cloud, make sure to check out our [Awesome List](https://github.com/hetznercloud/awesome-hcloud#readme).
 
 ## Contribute ❤️
 
