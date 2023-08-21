@@ -30,4 +30,4 @@ If you need more tools or integrations for Hetzner Cloud, make sure to check out
 
 Contributions are welcome, and they are greatly appreciated! You can help us improve the documentation, report or fix bugs, propose new features! And if you are interested in [joining the team](https://www.hetzner-cloud.de/#jobs), do not hesitate to reach out to us.
 
-###### If you need help, reach us using the [Support Center](https://www.hetzner.com/support-center).
+###### 🙋 If you need help, reach us using the [Support Center](https://www.hetzner.com/support-center).
