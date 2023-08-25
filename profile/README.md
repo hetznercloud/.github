@@ -1,6 +1,10 @@
 <p dir="auto">
   <a href="https://www.hetzner.com/cloud" rel="nofollow" style="border-radius: 2em 0;">
-    <img src="/hetznercloud/.github/raw/create_profile/assets/hcloud-banner-hero.jpg" alt="WELCOME TO THE INTERNET!" style="max-width: 100%;">
+    <img
+      src="https://raw.githubusercontent.com/hetznercloud/.github/create_profile/assets/hcloud-banner-hero.jpg"
+      alt="WELCOME TO THE INTERNET!"
+      style="max-width: 100%;"
+    >
   </a>
 </p>
 
