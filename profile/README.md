@@ -1,4 +1,4 @@
-[![](../assets/hetzner-logo.svg)](https://www.hetzner.com/cloud)
+[![](../assets/hcloud-banner-hero.jpg)](https://www.hetzner.com/cloud)
 
 **WELCOME TO THE INTERNET**
 
