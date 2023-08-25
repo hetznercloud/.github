@@ -1,9 +1,9 @@
 <p dir="auto">
-  <a href="https://www.hetzner.com/cloud" rel="nofollow" style="border-radius: 2em 0;">
+  <a href="https://www.hetzner.com/cloud" rel="nofollow">
     <img
       src="https://raw.githubusercontent.com/hetznercloud/.github/create_profile/assets/hcloud-banner-hero.jpg"
       alt="WELCOME TO THE INTERNET!"
-      style="max-width: 100%;"
+      style="max-width: 100%; border-radius: 2rem;"
     >
   </a>
 </p>
