@@ -1,5 +1,6 @@
 <p dir="auto">
   <a href="https://www.hetzner.com/cloud" rel="nofollow">
+  <!-- TODO: update img URL to the main branch -->
     <img
       src="https://raw.githubusercontent.com/hetznercloud/.github/create_profile/assets/hcloud-banner-hero.jpg"
       alt="WELCOME TO THE INTERNET!"
