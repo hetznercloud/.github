@@ -1,7 +1,5 @@
 [![](../assets/hcloud-banner-hero.jpg)](https://www.hetzner.com/cloud)
 
-**WELCOME TO THE INTERNET**
-
 ## Resources 📚
 
 - [Documentation](https://docs.hetzner.com/cloud)
