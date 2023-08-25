@@ -3,7 +3,6 @@
     <img
       src="https://raw.githubusercontent.com/hetznercloud/.github/create_profile/assets/hcloud-banner-hero.jpg"
       alt="WELCOME TO THE INTERNET!"
-      style="max-width: 100%; border-radius: 1rem;"
     >
   </a>
 </p>
