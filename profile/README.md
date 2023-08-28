@@ -12,7 +12,7 @@ Welcome to the [Hetzner Cloud](https://www.hetzner.com/cloud) Open Source integr
 
 ## Documentation 📚
 
-If you are just starting with Hetzner Cloud, or looking for specific information, here a few links to some important resources:
+If you are just starting with Hetzner Cloud, or looking for specific information, here's a few links to some important resources:
 
 - [Documentation](https://docs.hetzner.com/cloud)
 - [API reference](https://docs.hetzner.cloud)
@@ -20,7 +20,7 @@ If you are just starting with Hetzner Cloud, or looking for specific information
 
 ## Tools to interact with our API 🧰
 
-Below are tools, that can help you update a resources using the CLI or build an entire infrastructure:
+Below are tools that can help you update resources using the CLI or build an entire infrastructure:
 
 - [hcloud cli](https://github.com/hetznercloud/cli) — hcloud is a command-line interface for interacting with Hetzner Cloud.
 - [hetzner.hcloud](https://github.com/ansible-collections/hetzner.hcloud) — Ansible Collection for Hetzner Cloud.
@@ -32,7 +32,7 @@ If you need more tools or integrations for Hetzner Cloud, make sure to check out
 
 ## Libraries for developers 🏗️
 
-We provide libraries to build your own tools around the Hetzner Cloud products:
+We provide libraries for building your own tools around the Hetzner Cloud products:
 
 - [hcloud-go](https://github.com/hetznercloud/hcloud-go) — hcloud-go is a library for the Hetzner Cloud API.
 - [hcloud-python](https://github.com/hetznercloud/hcloud-python) — hcloud-python is a library for the Hetzner Cloud API.
