@@ -1,0 +1,26 @@
+dry-run: true # Prevent very verbose mistakes
+
+conflict-strategy: replace
+
+skip-forks: true
+repo:
+  - ansible-collections/hetzner.hcloud
+  - ansible-community/molecule-hetznercloud
+  - hetznercloud/cli
+  - hetznercloud/csi-driver
+  - hetznercloud/hcloud-cloud-controller-manager
+  - hetznercloud/hcloud-go
+  - hetznercloud/hcloud-python
+  - hetznercloud/terraform-provider-hcloud
+
+  ## Usually irrelevant
+  # - hetznercloud/.github
+  # - hetznercloud/awesome-hcloud
+  # - hetznercloud/helm-charts
+  # - hetznercloud/tps-action
+
+  ## Forks
+  # - hetznercloud/autoscaler
+  # - hetznercloud/molecule-hetznercloud
+  # - hetznercloud/packer-plugin-hcloud
+  # - hetznercloud/prometheus
