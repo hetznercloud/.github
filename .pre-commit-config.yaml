@@ -26,4 +26,4 @@ repos:
     rev: v3.0.1
     hooks:
       - id: prettier
-        files: \.(md|ya?ml)$
+        files: \.(md|ya?ml|json)$
