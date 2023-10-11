@@ -32,3 +32,18 @@ repos:
     rev: 37.8.1
     hooks:
       - id: renovate-config-validator
+
+  - repo: local
+    hooks:
+      - id: shfmt
+        name: shfmt
+        description: Format shell scripts with shfmt
+        language: golang
+        additional_dependencies: [mvdan.cc/sh/v3/cmd/shfmt@v3.7.0]
+        entry: shfmt -i 2 -ci -sr -kp -w
+        types: [shell]
+
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.9.0.6
+    hooks:
+      - id: shellcheck
