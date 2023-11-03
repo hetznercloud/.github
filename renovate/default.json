@@ -7,11 +7,12 @@
     ":semanticCommitTypeAll(deps)",
     ":enablePreCommit"
   ],
-  "regexManagers": [
+  "customManagers": [
     {
+      "customType": "regex",
       "fileMatch": ["^\\.github\\/(?:workflows|actions)\\/.+\\.ya?ml$"],
       "matchStrings": [
-        "^\\s+(?:[a-zA-Z-_]+)?(?:version|VERSION): (?<currentValue>.+?) # renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z-]+?))?$"
+        "(?:version|VERSION): (?<currentValue>.+) # renovate: datasource=(?<datasource>[a-z-]+) depName=(?<depName>.+)(?: lookupName=(?<packageName>.+))?(?: versioning=(?<versioning>[a-z-]+))?"
       ]
     }
   ]
