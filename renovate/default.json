@@ -9,7 +9,7 @@
   ],
   "regexManagers": [
     {
-      "fileMatch": ["^\\.github\\/(?:workflows|actions)\\/[^/]+\\.ya?ml$"],
+      "fileMatch": ["^\\.github\\/(?:workflows|actions)\\/.+\\.ya?ml$"],
       "matchStrings": [
         "^\\s+(?:[a-zA-Z-_]+)?(?:version|VERSION): (?<currentValue>.+?) # renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z-]+?))?$"
       ]
