@@ -5,7 +5,8 @@
     ":semanticCommits",
     ":semanticCommitScopeDisabled",
     ":semanticCommitTypeAll(deps)",
-    ":enablePreCommit"
+    ":enablePreCommit",
+    ":enableVulnerabilityAlerts"
   ],
   "customManagers": [
     {
