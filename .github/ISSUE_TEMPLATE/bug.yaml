@@ -1,0 +1,56 @@
+name: Bug Report
+description: Report a bug
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for filing a bug. Please complete the form below so we can triage,
+        reproduce, and fix your issue.
+
+        Make sure that it does not contain sensitive information.
+
+  - id: tldr
+    type: textarea
+    attributes:
+      label: TL;DR
+      description: Describe the bug in 1-2 sentences.
+    validations:
+      required: true
+
+  - id: expected-behavior
+    type: textarea
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - id: observed-behavior
+    type: textarea
+    attributes:
+      label: Observed behavior
+      description: What happened instead?
+    validations:
+      required: true
+
+  - id: minimal-working-example
+    type: textarea
+    attributes:
+      label: Minimal working example
+      description: |
+        Please provide a minimal working example for us to reproduce and fix your issue.
+
+  - id: log-output
+    type: textarea
+    attributes:
+      label: Log output
+      description: Please paste all log output here.
+      render: plain text
+
+  - id: additional-information
+    type: textarea
+    attributes:
+      label: Additional information
+      description: |
+        Is there anything else you think we should know (e.g. versions, links, ...)?
