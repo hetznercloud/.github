@@ -5,9 +5,12 @@
     ":semanticCommits",
     ":semanticCommitScopeDisabled",
     ":semanticCommitTypeAll(deps)",
-    ":enablePreCommit",
-    ":enableVulnerabilityAlerts"
+    ":enablePreCommit"
   ],
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "commitMessageSuffix": "!security"
+  },
   "customManagers": [
     {
       "customType": "regex",
