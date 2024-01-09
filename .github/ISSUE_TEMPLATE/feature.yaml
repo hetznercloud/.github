@@ -1,0 +1,27 @@
+name: Feature request
+description: Request a feature
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for requesting a feature. Please complete the form below so we can
+        triage and prioritize your feature.
+
+  - id: tldr
+    type: textarea
+    attributes:
+      label: TL;DR
+      description: Describe the feature in 1-2 sentences.
+    validations:
+      required: true
+
+  - id: expected-behavior
+    type: textarea
+    attributes:
+      label: Expected behavior
+      description: |
+        What are you expecting to happen? Provide as many details as possible and
+        include samples when relevant.
+    validations:
+      required: true
