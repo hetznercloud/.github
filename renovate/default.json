@@ -8,6 +8,13 @@
     ":enablePreCommit",
     ":enableVulnerabilityAlerts"
   ],
+  "packageRules": [
+    {
+      "matchManagers": ["pre-commit"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    }
+  ],
   "customManagers": [
     {
       "customType": "regex",
