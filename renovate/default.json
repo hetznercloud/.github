@@ -32,7 +32,7 @@
       "customType": "regex",
       "fileMatch": ["^\\.github\\/(?:workflows|actions)\\/.+\\.ya?ml$"],
       "matchStrings": [
-        "(?:version|VERSION): (?<currentValue>.+) # renovate: datasource=(?<datasource>[a-z-]+) depName=(?<depName>.+)(?: lookupName=(?<lookupName>.+))?(?: versioning=(?<versioning>[a-z-]+))?"
+        "(?:version|VERSION): (?<currentValue>.+) # renovate: datasource=(?<datasource>[a-z-]+) depName=(?<depName>.+)(?: lookupName=(?<lookupName>.+))?(?: versioning=(?<versioning>[a-z-]+))?(?: extractVersion=(?<extractVersion>.+))?"
       ]
     }
   ]
