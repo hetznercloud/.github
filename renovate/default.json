@@ -30,9 +30,9 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["^\\.github\\/(?:workflows|actions)\\/.+\\.ya?ml$"],
+      "fileMatch": [".+\\.ya?ml$"],
       "matchStrings": [
-        "(?:version|VERSION): (?<currentValue>.+) # renovate: datasource=(?<datasource>[a-z-]+) depName=(?<depName>.+)(?: lookupName=(?<lookupName>.+))?(?: versioning=(?<versioning>[a-z-]+))?(?: extractVersion=(?<extractVersion>.+))?"
+        ": (?<currentValue>.+) # renovate: datasource=(?<datasource>[a-z-]+) depName=(?<depName>[^\\s]+)(?: lookupName=(?<lookupName>[^\\s]+))?(?: versioning=(?<versioning>[a-z-]+))?(?: extractVersion=(?<extractVersion>[^\\s]+))?"
       ]
     }
   ]
