@@ -3,8 +3,6 @@
   "extends": [
     "config:recommended",
     ":semanticCommits",
-    ":semanticCommitScopeDisabled",
-    ":semanticCommitTypeAll(deps)",
     ":enablePreCommit",
     ":enableVulnerabilityAlerts"
   ],
