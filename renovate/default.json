@@ -32,6 +32,13 @@
       "matchStrings": [
         ": (?<currentValue>.+) # renovate: datasource=(?<datasource>[a-z-]+) depName=(?<depName>[^\\s]+)(?: lookupName=(?<lookupName>[^\\s]+))?(?: versioning=(?<versioning>[a-z-]+))?(?: extractVersion=(?<extractVersion>[^\\s]+))?"
       ]
+    },
+    {
+      "customType": "regex",
+      "fileMatch": [".+\\.tf$"],
+      "matchStrings": [
+        "= \"(?<currentValue>.+)\" # renovate: datasource=(?<datasource>[a-z-]+) depName=(?<depName>[^\\s]+)(?: lookupName=(?<lookupName>[^\\s]+))?(?: versioning=(?<versioning>[a-z-]+))?(?: extractVersion=(?<extractVersion>[^\\s]+))?"
+      ]
     }
   ]
 }
