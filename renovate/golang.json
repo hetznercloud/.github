@@ -1,4 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [":semanticCommitScopeDisabled", ":semanticCommitTypeAll(deps)"]
+  "extends": [":semanticCommitScopeDisabled", ":semanticCommitTypeAll(deps)"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["go", "golang"],
+      "matchDepTypes": ["toolchain", "image", "stage"],
+      "allowedVersions": "<1.23"
+    }
+  ]
 }
