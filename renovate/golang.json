@@ -5,7 +5,7 @@
     {
       "matchPackageNames": ["go", "golang"],
       "matchDepTypes": ["toolchain", "image", "stage"],
-      "allowedVersions": "<1.23"
+      "allowedVersions": "<1.24"
     }
   ]
 }
