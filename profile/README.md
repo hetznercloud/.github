@@ -26,6 +26,7 @@ Below are tools that can help you update resources using the CLI or build an ent
 - [terraform-provider-hcloud](https://github.com/hetznercloud/terraform-provider-hcloud) — Hetzner Cloud Terraform Provider.
 - [hcloud-cloud-controller-manager](https://github.com/hetznercloud/hcloud-cloud-controller-manager) — Kubernetes cloud-controller-manager for Hetzner Cloud.
 - [csi-driver](https://github.com/hetznercloud/csi-driver) — Container Storage Interface driver for Hetzner Cloud.
+- [fleeting-plugin-hetzner](https://gitlab.com/hetznercloud/fleeting-plugin-hetzner) — GitLab CI fleeting plugin for Hetzner Cloud.
 
 If you need more tools or integrations for Hetzner Cloud, make sure to check out our [Awesome List](https://github.com/hetznercloud/awesome-hcloud#readme).
 
