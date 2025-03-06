@@ -27,6 +27,8 @@ repos:
     hooks:
       - id: prettier
         files: \.(md|ya?ml|json)$
+        additional_dependencies:
+          - prettier@3.5.3
 
   - repo: local
     hooks:
@@ -34,11 +36,12 @@ repos:
         name: shfmt
         description: Format shell scripts with shfmt
         language: golang
-        additional_dependencies: [mvdan.cc/sh/v3/cmd/shfmt@v3.7.0]
+        additional_dependencies:
+          - mvdan.cc/sh/v3/cmd/shfmt@v3.11.0
         entry: shfmt -i 2 -ci -sr -kp -w
         types: [shell]
 
   - repo: https://github.com/shellcheck-py/shellcheck-py
-    rev: v0.9.0.6
+    rev: v0.10.0.1
     hooks:
       - id: shellcheck
