@@ -6,6 +6,10 @@
       "matchPackageNames": ["go", "golang"],
       "matchDepTypes": ["toolchain", "image", "stage"],
       "allowedVersions": "<1.25"
+    },
+    {
+      "matchPackageNames": ["golangci/golangci-lint"],
+      "allowedVersions": "<2.0.0"
     }
   ],
   "postUpdateOptions": ["gomodUpdateImportPaths"]
