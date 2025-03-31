@@ -10,6 +10,10 @@
     {
       "matchPackageNames": ["golangci/golangci-lint"],
       "allowedVersions": "<2.0.0"
+    },
+    {
+      "matchPackageNames": ["golangci/golangci-lint-action"],
+      "allowedVersions": "<7.0.0"
     }
   ],
   "postUpdateOptions": ["gomodUpdateImportPaths"]
