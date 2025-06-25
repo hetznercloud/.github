@@ -1,4 +1,4 @@
-dry-run: false # Prevent very verbose mistakes
+dry-run: true # Prevent very verbose mistakes
 
 conflict-strategy: replace
 
