@@ -1,8 +1,11 @@
-dry-run: true # Prevent very verbose mistakes
+dry-run: false # Prevent very verbose mistakes
 
 conflict-strategy: replace
 
+#skip-pr: true
 skip-forks: true
+
+# Github
 repo:
   - ansible-collections/hetzner.hcloud
   - ansible-community/molecule-hetznercloud
@@ -23,3 +26,7 @@ repo:
   ## Forks
   # - hetznercloud/autoscaler
   # - hetznercloud/prometheus
+
+# Gitlab
+project:
+  - hetznercloud/fleeting-plugin-hetzner
