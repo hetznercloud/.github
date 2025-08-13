@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["go", "golang"],
-      "matchDepTypes": ["toolchain", "image", "stage"],
+      "matchDepTypes": ["toolchain", "image", "stage", "uses-with"],
       "allowedVersions": "<1.25"
     },
     {
