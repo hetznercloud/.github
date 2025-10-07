@@ -27,6 +27,8 @@ Below are tools that can help you update resources using the CLI or build an ent
 - [hcloud-cloud-controller-manager](https://github.com/hetznercloud/hcloud-cloud-controller-manager) — Kubernetes cloud-controller-manager for Hetzner Cloud.
 - [csi-driver](https://github.com/hetznercloud/csi-driver) — Container Storage Interface driver for Hetzner Cloud.
 - [fleeting-plugin-hetzner](https://gitlab.com/hetznercloud/fleeting-plugin-hetzner) — GitLab CI fleeting plugin for Hetzner Cloud.
+- [cert-manager-webhook-hetzner](https://github.com/hetzner/cert-manager-webhook-hetzner) — cert-manager webhook for Hetzner.
+- [external-dns-hetzner-webhook](https://github.com/hetzner/external-dns-hetzner-webhook) — ExternalDNS webhook for Hetzner.
 
 If you need more tools or integrations for Hetzner Cloud, make sure to check out our [Awesome List](https://github.com/hetznercloud/awesome-hcloud#readme).
 
