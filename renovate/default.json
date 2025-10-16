@@ -23,6 +23,11 @@
       "description": ["automerge patch version"],
       "updateTypes": ["patch"],
       "automerge": true
+    },
+    {
+      "description": ["cert-manager releases are spread over a long time"],
+      "matchDepNames": ["cert-manager", "github.com/cert-manager/cert-manager"],
+      "minimumReleaseAge": "2 days"
     }
   ],
   "customManagers": [
