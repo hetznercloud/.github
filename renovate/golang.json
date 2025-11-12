@@ -5,6 +5,11 @@
     {
       "matchPackageNames": ["go", "golang"],
       "allowedVersions": "<1.26"
+    },
+    {
+      "description": "Go extended library",
+      "matchPackageNames": ["golang.org/x/**"],
+      "groupName": "golang.org/x/"
     }
   ],
   "postUpdateOptions": ["gomodUpdateImportPaths"]
