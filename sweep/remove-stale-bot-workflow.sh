@@ -8,5 +8,5 @@ WORKFLOW_FILE=.github/workflows/stale.yml
 
 rm -f "$WORKFLOW_FILE"
 
-git add .
+git add "$WORKFLOW_FILE"
 git --no-pager diff --color --cached
