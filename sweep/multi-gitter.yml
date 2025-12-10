@@ -9,11 +9,15 @@ skip-forks: true
 repo:
   - ansible-collections/hetzner.hcloud
   - ansible-community/molecule-hetznercloud
+  - hetzner/cert-manager-webhook-hetzner
+  - hetzner/external-dns-hetzner-webhook
   - hetznercloud/cli
   - hetznercloud/csi-driver
   - hetznercloud/hcloud-cloud-controller-manager
   - hetznercloud/hcloud-go
   - hetznercloud/hcloud-python
+  - hetznercloud/kubernetes-dev-env
+  - hetznercloud/nomad-dev-env
   - hetznercloud/packer-plugin-hcloud
   - hetznercloud/terraform-provider-hcloud
 
@@ -21,6 +25,7 @@ repo:
   # - hetznercloud/.github
   # - hetznercloud/awesome-hcloud
   # - hetznercloud/helm-charts
+  # - hetznercloud/setup-hcloud
   # - hetznercloud/tps-action
 
   ## Forks
