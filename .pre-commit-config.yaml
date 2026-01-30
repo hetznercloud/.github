@@ -37,7 +37,7 @@ repos:
         description: Format shell scripts with shfmt
         language: golang
         additional_dependencies:
-          - mvdan.cc/sh/v3/cmd/shfmt@v3.11.0
+          - mvdan.cc/sh/v3/cmd/shfmt@v3.12.0
         entry: shfmt -i 2 -ci -sr -kp -w
         types: [shell]
 
