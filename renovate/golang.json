@@ -3,7 +3,7 @@
   "extends": [":semanticCommitScopeDisabled", ":semanticCommitTypeAll(deps)"],
   "packageRules": [
     {
-      "matchPackageNames": ["go", "golang"],
+      "matchDepNames": ["go"],
       "allowedVersions": "<1.26"
     },
     {
