@@ -4,9 +4,25 @@
     "config:recommended",
     ":semanticCommits",
     ":enablePreCommit",
-    ":enableVulnerabilityAlerts"
+    ":enableVulnerabilityAlerts",
+    "helpers:pinGitHubActionDigests"
   ],
   "packageRules": [
+    {
+      "description": ["delay GitHub Actions updates and only update weekly"],
+      "matchManagers": ["github-actions"],
+      "minimumReleaseAge": "5 days",
+      "minimumReleaseAgeBehavior": "timestamp-optional",
+      "schedule": ["on monday"]
+    },
+    {
+      "description": ["do not delay updates for our own GitHub Actions"],
+      "matchManagers": ["github-actions"],
+      "matchSourceUrls": ["https://github.com/hetznercloud/**"],
+      "minimumReleaseAge": "0 seconds",
+      "minimumReleaseAgeBehavior": "timestamp-optional",
+      "schedule": ["at any time"]
+    },
     {
       "description": ["automerge pre-commit hooks minor and patch version"],
       "matchManagers": ["pre-commit"],
