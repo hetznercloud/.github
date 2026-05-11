@@ -18,7 +18,10 @@
     {
       "description": ["do not delay updates for our own GitHub Actions"],
       "matchManagers": ["github-actions"],
-      "matchSourceUrls": ["https://github.com/hetznercloud/**"],
+      "matchSourceUrls": [
+        "https://github.com/hetznercloud/**",
+        "https://github.com/hetzner/**"
+      ],
       "minimumReleaseAge": "0 seconds",
       "minimumReleaseAgeBehavior": "timestamp-optional",
       "schedule": ["at any time"]
