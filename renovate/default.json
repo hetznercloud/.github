@@ -9,15 +9,13 @@
   ],
   "packageRules": [
     {
-      "description": ["delay GitHub Actions updates and only update weekly"],
-      "matchManagers": ["github-actions"],
+      "description": ["delay updates and only update weekly"],
       "minimumReleaseAge": "5 days",
       "minimumReleaseAgeBehavior": "timestamp-optional",
       "schedule": ["on monday"]
     },
     {
-      "description": ["do not delay updates for our own GitHub Actions"],
-      "matchManagers": ["github-actions"],
+      "description": ["do not delay updates for our own packages"],
       "matchSourceUrls": [
         "https://github.com/hetznercloud/**",
         "https://github.com/hetzner/**"
@@ -42,11 +40,6 @@
       "description": ["automerge patch version"],
       "updateTypes": ["patch"],
       "automerge": true
-    },
-    {
-      "description": ["cert-manager releases are spread over a long time"],
-      "matchDepNames": ["cert-manager", "github.com/cert-manager/cert-manager"],
-      "minimumReleaseAge": "2 days"
     }
   ],
   "customManagers": [
