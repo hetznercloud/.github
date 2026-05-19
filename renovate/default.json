@@ -7,12 +7,13 @@
     ":enableVulnerabilityAlerts",
     "helpers:pinGitHubActionDigests"
   ],
+  "minimumReleaseAge": "5 days",
+  "minimumReleaseAgeBehavior": "timestamp-optional",
   "packageRules": [
     {
-      "description": ["delay updates and only update weekly"],
-      "minimumReleaseAge": "5 days",
-      "minimumReleaseAgeBehavior": "timestamp-optional",
-      "schedule": ["on monday"]
+      "description": ["update actions every monday"],
+      "matchManagers": ["github-actions"],
+      "schedule": ["on sunday"]
     },
     {
       "description": ["do not delay updates for our own packages"],
@@ -21,8 +22,7 @@
         "https://github.com/hetzner/**"
       ],
       "minimumReleaseAge": "0 seconds",
-      "minimumReleaseAgeBehavior": "timestamp-optional",
-      "schedule": ["at any time"]
+      "minimumReleaseAgeBehavior": "timestamp-optional"
     },
     {
       "description": ["automerge pre-commit hooks minor and patch version"],
