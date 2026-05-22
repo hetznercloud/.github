@@ -16,6 +16,11 @@
       "schedule": ["on sunday"]
     },
     {
+      "description": ["update mise weekly"],
+      "matchDepNames": ["jdx/mise"],
+      "schedule": ["on sunday"]
+    },
+    {
       "description": ["do not delay updates for our own packages"],
       "matchSourceUrls": [
         "https://github.com/hetznercloud/**",
