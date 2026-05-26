@@ -67,7 +67,7 @@ Examples:
 
 ## AI / LLM policy
 
-You may use AI assistants when contributing, subject to all the following:
+You may use AI assistants when contributing, provided every one of the following is met:
 
 1. **Disclose** in the PR description (or issue) that you used an AI tool, and
    which one. One short line is enough.
