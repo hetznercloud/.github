@@ -9,18 +9,18 @@ This project follows the core values of the [Contributor Covenant Code of Conduc
 1. **Check first** that the bug isn't already filed — search both open and
    closed issues. If you find a match, add a 👍 reaction or a comment with new
    information rather than opening a duplicate.
-2. **Use the issue template** for the relevant repo.
+2. **Use the issue template** when opening an issue.
 
 ## Proposing a change
 
 The kinds of pull requests we welcome:
 
-- **Bug fixes** for clearly identified bugs. The PR description should explain
+- **Fixes** for clearly identified bugs. The pull request description must explain
   what is being fixed and how to verify it. A regression test is expected.
 - **New features** that solve a use case shared by a meaningful portion of users.
   **Please open an issue first** and wait for a maintainer to confirm the direction before writing code.
 - **Chores**: typos, comment clarifications.
-  Multiple typo or comment fixes can be combined into a single PR.
+  Multiple typos or comment fixes can be combined into a single pull request.
 
 What we'll generally **decline**:
 
@@ -28,12 +28,12 @@ What we'll generally **decline**:
   testability. Code style is subjective and large diffs make `git blame` worse.
   We're happy to accept small, principled cleanups alongside other work.
 - Changes which result in a breaking change.
-- "Drive-by" PRs where the contributor isn't available to address review
+- "Drive-by" pull requests where the contributor isn't available to address review
   comments.
 
 ## Pull request guidelines
 
-- **One concern per PR.** Smaller PRs get faster reviews.
+- **One concern per pull request.** Smaller pull requests get faster reviews.
 - **Tests are required** for bug fixes (regression test) and new features
   (coverage of the new path).
 - **CI must be green** before a PR is merged. If a CI failure looks unrelated
@@ -44,7 +44,7 @@ What we'll generally **decline**:
   make small fixups directly.
 - **Don't force-push** after a maintainer has started reviewing. Push new
   commits; we squash on merge.
-- **PR titles** should follow the [Conventional Commits](https://www.conventionalcommits.org/) pattern because the title becomes the squash-merge commit message (see [Commit messages](#commit-messages) for details); update the title and body if the change drifts during review.
+- **Pull request titles** should follow the [Conventional Commits](https://www.conventionalcommits.org/) pattern because the title becomes the squash-merge commit message (see [Commit messages](#commit-messages) for details); update the title and body if the change drifts during review.
 
 ### Commit messages
 
@@ -88,7 +88,7 @@ You may use AI assistants when contributing, subject to all the following:
 ## Licensing
 
 By submitting a contribution, you agree that it is licensed under the same
-licence as the repository you're contributing to. See each repo's `LICENSE`
+licence as the repository you're contributing to. See each repository's `LICENSE`
 file.
 
 Thanks for contributing. If something in these guidelines is unclear or seems
