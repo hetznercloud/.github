@@ -44,9 +44,7 @@ What we'll generally **decline**:
   make small fixups directly.
 - **Don't force-push** after a maintainer has started reviewing. Push new
   commits; we squash on merge.
-- **PR titles** should follow the [Conventional Commits](https://www.conventionalcommits.org/) pattern. See [Commit messages](#commit-messages) for more details.
-- **Update the PR title and body** if the change drifts during review — the
-  title becomes the squash-merge commit message.
+- **PR titles** should follow the [Conventional Commits](https://www.conventionalcommits.org/) pattern because the title becomes the squash-merge commit message (see [Commit messages](#commit-messages) for details); update the title and body if the change drifts during review.
 
 ### Commit messages
 
