@@ -38,7 +38,8 @@ What we'll generally **decline**:
   (coverage of the new path).
 - **CI must be green** before a PR is merged. If a CI failure looks unrelated
   to your change, comment on the PR rather than force-pushing — a maintainer
-  will have a look. - ⚠️ A lot of our e2e tests use the [tps-action](https://github.com/hetznercloud/tps-action). This action will fail for unauthorized users. Expect them to fail, if you are not part of our organization. A maintainer will run the e2e tests. If you decide on running them on your own costs, feel free to share the results.
+  will have a look.
+  - ⚠️ A lot of our e2e tests use the [tps-action](https://github.com/hetznercloud/tps-action). This action will fail for unauthorized users. Expect them to fail, if you are not part of our organization. A maintainer will run the e2e tests. If you decide on running them on your own costs, feel free to share the results.
 - **Allow edits from maintainers** when you open the PR, so we can rebase or
   make small fixups directly.
 - **Don't force-push** after a maintainer has started reviewing. Push new
