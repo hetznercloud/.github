@@ -36,7 +36,7 @@ What we'll generally **decline**:
 - **One concern per pull request.** Smaller pull requests get faster reviews.
 - **Tests are required** for bug fixes (regression test) and new features
   (coverage of the new path).
-- **Ensure you fix all errors** once the CI run has been approved by a maintainer.
+- **Ensure you fix all errors** reported by our CI. Note that CI runs have to be approved by a maintainer.
   - ⚠️ A lot of our e2e tests use the [tps-action](https://github.com/hetznercloud/tps-action). This action will fail for unauthorized users. Expect them to fail, if you are not part of our organization. A maintainer will run the e2e tests. If you decide on running them on your own costs, feel free to share the results.
 - **Allow edits from maintainers** when you open the PR, so we can rebase or
   make small fixups directly.
