@@ -88,7 +88,7 @@ You may use AI assistants when contributing, provided every one of the following
 ## Licensing
 
 By submitting a contribution, you agree that it is licensed under the same
-licence as the repository you're contributing to. See each repository's `LICENSE`
+license as the repository you're contributing to. See each repository's `LICENSE`
 file.
 
 Thanks for contributing. If something in these guidelines is unclear or seems
