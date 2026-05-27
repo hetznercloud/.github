@@ -1,4 +1,6 @@
-# Contribution Guideline
+# Contributing
+
+First off, thanks for taking the time to contribute! ❤️
 
 ## Code of Conduct
 
