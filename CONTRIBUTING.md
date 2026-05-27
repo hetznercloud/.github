@@ -71,19 +71,19 @@ Examples:
 
 You may use AI assistants when contributing, provided every one of the following is met:
 
-1. **Disclose** in the pull request description (or issue) that you used an AI tool, and
-   which one. One short line is enough.
-2. **You are accountable.** You must understand every change you submit well
-   enough to explain it, defend it in review, and revise it without further AI
-   help if the reviewer asks. Pull requests from contributors who can't engage with
-   review comments will be closed.
-3. **Submitted by a human.** pull requests must come from a real, human-owned GitHub
-   account. We don't accept submissions from bot accounts or unattended agents.
-4. **Quality bar is unchanged.** AI-generated boilerplate, half-finished code,
-   plausible-but-wrong fixes, or hallucinated APIs will be closed.
-5. **Cap on open AI-assisted pull requests.** Contributors may have at most
-   two open AI-assisted pull request(s) at a time. This protects review
-   capacity. Maintainers are not subject to this cap.
+- **Disclose** in the pull request description (or issue) that you used an AI tool, and
+  which one. One short line is enough.
+- **You are accountable.** You must understand every change you submit well
+  enough to explain it, defend it in review, and revise it without further AI
+  help if the reviewer asks. Pull requests from contributors who can't engage with
+  review comments will be closed.
+- **Submitted by a human.** pull requests must come from a real, human-owned GitHub
+  account. We don't accept submissions from bot accounts or unattended agents.
+- **Quality bar is unchanged.** AI-generated boilerplate, half-finished code,
+  plausible-but-wrong fixes, or hallucinated APIs will be closed.
+- **Cap on open AI-assisted pull requests.** Contributors may have at most
+  two open AI-assisted pull request(s) at a time. This protects review
+  capacity. Maintainers are not subject to this cap.
 
 ## Licensing
 
