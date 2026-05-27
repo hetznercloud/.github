@@ -38,7 +38,7 @@ What we'll generally **decline**:
   (coverage of the new path).
 - **Ensure you fix all errors** reported by our CI. Note that CI runs have to be approved by a maintainer.
   - ⚠️ A lot of our e2e tests use the [tps-action](https://github.com/hetznercloud/tps-action). This action will fail for unauthorized users. Expect them to fail, if you are not part of our organization. A maintainer will run the e2e tests. If you decide on running them on your own costs, feel free to share the results.
-- **Allow edits from maintainers** when you open the PR, so we can rebase or
+- **Allow edits from maintainers** when you open the pull request, so we can rebase or
   make small fixups directly.
 - **Don't force-push** after a maintainer has started reviewing. Push new
   commits; we squash on merge.
@@ -69,18 +69,18 @@ Examples:
 
 You may use AI assistants when contributing, provided every one of the following is met:
 
-1. **Disclose** in the PR description (or issue) that you used an AI tool, and
+1. **Disclose** in the pull request description (or issue) that you used an AI tool, and
    which one. One short line is enough.
 2. **You are accountable.** You must understand every change you submit well
    enough to explain it, defend it in review, and revise it without further AI
-   help if the reviewer asks. PRs from contributors who can't engage with
+   help if the reviewer asks. pull requests from contributors who can't engage with
    review comments will be closed.
-3. **Submitted by a human.** PRs must come from a real, human-owned GitHub
+3. **Submitted by a human.** pull requests must come from a real, human-owned GitHub
    account. We don't accept submissions from bot accounts or unattended agents.
 4. **Quality bar is unchanged.** AI-generated boilerplate, half-finished code,
    plausible-but-wrong fixes, or hallucinated APIs will be closed.
-5. **Cap on open AI-assisted PRs.** Contributors may have at most
-   two open AI-assisted PR(s) at a time. This protects review
+5. **Cap on open AI-assisted pull requests.** Contributors may have at most
+   two open AI-assisted pull request(s) at a time. This protects review
    capacity. Maintainers are not subject to this cap.
 
 ## Licensing
@@ -90,4 +90,4 @@ licence as the repository you're contributing to. See each repository's `LICENSE
 file.
 
 Thanks for contributing. If something in these guidelines is unclear or seems
-to be missing, please open an issue or PR — they apply to themselves.
+to be missing, please open an issue or pull request — they apply to themselves.
