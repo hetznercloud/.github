@@ -11,6 +11,11 @@
   "minimumReleaseAgeBehavior": "timestamp-optional",
   "packageRules": [
     {
+      "description": ["group github actions updates"],
+      "groupName": "github actions",
+      "matchManagers": ["github-actions"]
+    },
+    {
       "description": ["update actions weekly"],
       "matchManagers": ["github-actions"],
       "schedule": ["on sunday"]
