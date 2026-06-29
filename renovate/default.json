@@ -17,14 +17,14 @@
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"]
     },
     {
-      "description": ["update actions weekly"],
+      "description": ["update actions monthly the 15th"],
       "matchManagers": ["github-actions"],
-      "schedule": ["on sunday"]
+      "schedule": ["* * 15 * *"]
     },
     {
-      "description": ["update mise weekly"],
+      "description": ["update mise monthly the 15th"],
       "matchDepNames": ["jdx/mise"],
-      "schedule": ["on sunday"]
+      "schedule": ["* * 15 * *"]
     },
     {
       "description": ["do not delay updates for our own packages"],
