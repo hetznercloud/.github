@@ -51,6 +51,12 @@
       "description": ["automerge patch version"],
       "updateTypes": ["patch"],
       "automerge": true
+    },
+    {
+      "matchManagers": ["pre-commit"],
+      "matchPackageNames": ["pre-commit/mirrors-prettier"],
+      "replacementName": "jooola/pre-commit-prettier",
+      "replacementVersion": "3.9.6"
     }
   ],
   "customManagers": [
