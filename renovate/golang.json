@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "matchDepNames": ["go", "golang"],
-      "allowedVersions": "<1.27"
+      "allowedVersions": "<1.28"
     },
     {
       "description": "Go extended library",
