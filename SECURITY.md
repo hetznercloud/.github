@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you believe you have found a security vulnerability, please report it 
+If you believe you have found a security vulnerability, please report it
 privately using one of the following channels:
 
 - GitHub's private vulnerability reporting: open the **Security and quality** tab
@@ -25,5 +25,5 @@ When reporting, please include as much of the following as possible:
 
 We encourage you to encrypt reports that contain sensitive information. You can
 send OpenPGP-encrypted email to
-[security@hetzner.com](mailto:security@hetzner.com) using our public key, 
+[security@hetzner.com](mailto:security@hetzner.com) using our public key,
 available at [https://hetzner.com/pgp-key.txt](https://hetzner.com/pgp-key.txt).
