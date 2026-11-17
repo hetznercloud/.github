@@ -8,7 +8,7 @@
     "helpers:pinGitHubActionDigests"
   ],
   "minimumReleaseAge": "5 days",
-  "minimumReleaseAgeBehavior": "timestamp-optional",
+  "minimumReleaseAgeBehaviour": "timestamp-optional",
   "packageRules": [
     {
       "description": ["group github actions updates"],
@@ -33,7 +33,7 @@
         "https://github.com/hetzner/**"
       ],
       "minimumReleaseAge": "0 seconds",
-      "minimumReleaseAgeBehavior": "timestamp-optional"
+      "minimumReleaseAgeBehaviour": "timestamp-optional"
     },
     {
       "description": ["automerge pre-commit hooks minor and patch version"],
